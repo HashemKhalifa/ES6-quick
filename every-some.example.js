@@ -13,7 +13,13 @@ var birthdate = new Field('08/08/1988');
 
 var fields = [username, password, birthdate]
 
-fields.every(function(field) {
+var formIsValid = fields.every(function(field) {
     console.log(field.validate())
     return field.validate()
 })
+
+if (formIsValid) {
+    // process the validation
+} else {
+    // show error message
+}
