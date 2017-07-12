@@ -21,13 +21,15 @@ allComputerCanRun;
 onlySomeComputerCanRun;
 
 /* Every */
-
+// if any element return false it will be false, it should all return true to get true “kinda like &&"
 computers.every(function(computer) {
     console.log(computer.ram > 16);
     return computer.ram > 16;
 })
 
-/* some */
+
+
+/*  Some “kinda like | |  between any value” at least one helper will return true and it will return true */
 computers.some(function(computer) {
     console.log(computer.ram > 16);
     //return computer.ram > 16;
