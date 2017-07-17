@@ -21,7 +21,7 @@ const team = {
     members: ['Hashem', 'Ahmed'],
     teamName: 'Basket ball',
     teamSummary: function() {
-        return this.members.map(function(member) {
+        return this.members.map((member) => {
             return `${member} is on team ${this.teamName} `;
         });
     }
