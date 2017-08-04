@@ -93,7 +93,7 @@ const userSignUp = {
 signUp(userSignUp);
 
 
-// Real example with arrays
+// Real example with arrays passing x and y.
 
 const points = [
     [3, 4],
