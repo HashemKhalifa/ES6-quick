@@ -25,7 +25,7 @@ var userInfo = {
 
 var userGraduate = {
     university: 'university of sharjah',
-    graduated: '2011'
+    graduated: 2011
 }
 
 // var userSummary = function(user) {
@@ -35,7 +35,7 @@ var userGraduate = {
 // destructuring 
 var userSummary = function({ firstName, lastName, age }, { university, graduated }) {
 
-    return `Welcome ${firstName} ${lastName} ${age}` + ` your ${university} from ${graduated}`;
+    return `Welcome ${firstName} ${lastName} ${age}` + ` your ${university} gruaduated ${graduated}`;
 }
 
 userSummary(userInfo, userGraduate);
@@ -103,4 +103,5 @@ const points = [
 
 points.map(([x, y]) => {
     return { x, y };
+
 });
