@@ -2,8 +2,8 @@
 
 promise = new Promise((resolve, reject) => {
     setTimeout(() => {
-        reject();
-    }, 3000);
+        reject(); // reject or resolve 
+    }, 3000); // async code with promises.
 
 });
 
